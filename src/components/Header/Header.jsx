@@ -60,10 +60,10 @@ function Header() {
              border border-smallTextColors py-2 px-4 rounded-[20px] max-h-[40px]
              hover:bg-smallTextColors hover:text-white font-[500] ease-in duration-500"
             >
-              <i class="ri-send-plane-line"></i>Let's talk
+              <i className="ri-send-plane-line"></i>Let's talk
             </button>
             <span className="text-2xl text-smallTextColors md:hidden cursor-pointer">
-              <i class="ri-menu-line"></i>
+              <i className="ri-menu-line"></i>
             </span>
           </div>
           {/*----------------Menu right end ------------------------------------ */}

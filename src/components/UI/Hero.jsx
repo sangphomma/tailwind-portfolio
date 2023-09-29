@@ -36,7 +36,7 @@ const Hero = () => {
                 font-[500] flex items-center gap-2 p-3 px-4 rounded-md
                 hover:bg-smallTextColors ease-in duration-300"
                 >
-                  <i class="ri-mail-send-line"></i>Send me.
+                  <i className="ri-mail-send-line"></i>Send me.
                 </button>
               </a>
               <a
@@ -54,7 +54,7 @@ const Hero = () => {
                 sm:pl-14 sm:pr-10"
             >
               <span>
-                <i class="ri-apps-2-line"></i>
+                <i className="ri-apps-2-line"></i>
               </span>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
               recusandae delectus ducimus. Nisi facilis est ab nulla sunt, enim
@@ -70,7 +70,7 @@ const Hero = () => {
                   href="#"
                   className="text-smallTextColors text-[18px] font-[600] "
                 >
-                  <i class="ri-youtube-line"></i>
+                  <i className="ri-youtube-line"></i>
                 </a>
               </span>
               <span className="">
@@ -78,7 +78,7 @@ const Hero = () => {
                   href="#"
                   className="text-smallTextColors text-[18px] font-[600] "
                 >
-                  <i class="ri-github-fill"></i>
+                  <i className="ri-github-fill"></i>
                 </a>
               </span>
               <span className="">
@@ -86,7 +86,7 @@ const Hero = () => {
                   href="#"
                   className="text-smallTextColors text-[18px] font-[600] "
                 >
-                  <i class="ri-facebook-circle-fill"></i>
+                  <i className="ri-facebook-circle-fill"></i>
                 </a>
               </span>
               <span className="">
@@ -94,7 +94,7 @@ const Hero = () => {
                   href="#"
                   className="text-smallTextColors text-[18px] font-[600] "
                 >
-                  <i class="ri-instagram-line"></i>
+                  <i className="ri-instagram-line"></i>
                 </a>
               </span>
             </div>
