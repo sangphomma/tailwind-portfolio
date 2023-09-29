@@ -131,7 +131,7 @@ const Footer = () => {
                 className="text-gray-400 
 text-[14px] font-[500] "
               >
-                Copyright {year} by Korn.S - All right reserved{" "}
+                Copyright {year} developed by Korn.S - All right reserved{" "}
               </p>
             </div>
           </div>
