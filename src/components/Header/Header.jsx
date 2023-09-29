@@ -2,6 +2,8 @@ import React, { useRef, useEffect } from "react";
 
 function Header() {
   const headerRef = useRef(null);
+  const menuRef = useRef(null);
+
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
       if (
@@ -29,6 +31,8 @@ function Header() {
     });
   };
 
+  const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
+
   return (
     <header
       ref={headerRef}
@@ -54,7 +58,7 @@ function Header() {
 
           {/*----------------logo end ------------------------------------ */}
           {/*----------------Menu Start ------------------------------------ */}
-          <div className="menu">
+          <div className="menu" ref={menuRef} onClick={toggleMenu}>
             <ul className="flex items-center gap-10">
               <li>
                 <a
@@ -106,7 +110,10 @@ function Header() {
             >
               <i className="ri-send-plane-line"></i>Let's talk
             </button>
-            <span className="text-2xl text-smallTextColors md:hidden cursor-pointer">
+            <span
+              onClick={toggleMenu}
+              className="text-2xl text-smallTextColors md:hidden cursor-pointer"
+            >
               <i className="ri-menu-line"></i>
             </span>
           </div>

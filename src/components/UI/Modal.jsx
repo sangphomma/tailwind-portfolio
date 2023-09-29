@@ -6,9 +6,9 @@ const Modal = ({ activeId, setShowModal }) => {
   return (
     <div className="w-full h-full fixed left-0 top-0 z-[10] bg-headingColors bg-opacity-50">
       <div
-        className="absolute left-1/2 p-5 
+        className="w-11/12 md:max-w-[600px] md:w-full  absolute left-1/2 p-5 
       transform -translate-x-1/2 -translate-y-1/2 
-      top-1/2 max-w-[600px] z-20 bg-white rounded-xl"
+      top-1/2 z-20 bg-white rounded-xl"
       >
         <div>
           <figure>
